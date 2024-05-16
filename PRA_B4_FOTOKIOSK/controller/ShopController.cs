@@ -14,8 +14,6 @@ namespace PRA_B4_FOTOKIOSK.controller
 
         public static Home Window { get; set; }
 
-        public List<KioskProduct> Products { get; set; }
-
         public void Start()
         {
             // Stel de prijslijst in aan de rechter kant.
